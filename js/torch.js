@@ -19,11 +19,12 @@ $(function(){
   anime({
     targets: svgPath,
     strokeDashoffset: [0, anime.setDashoffset],
-    easing: 'easeInOutSine',
-    duration: 500,
-    // delay: 1000,
+    translateY: -5,
+    easing: 'easeOutSine',
+    duration: 250,
+    delay: 1000,
     // direction: 'alternate',
-    loop: true
+    // loop: true
   });
   
 
